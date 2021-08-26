@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap");
+body {
+  margin: 0;
+  background: white;
+  font-family: 'Montserrat';
+  padding: 1em 1em;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #4f4f4f;
+}
+
+h3, p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #828282;
+}
+
+.profile {
+  margin-bottom: 2em;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 0px 5px #828282;
+          box-shadow: 0 0px 5px #828282;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile .right-col .contact {
+  margin-bottom: 2em;
+}
+
+.profile .right-col .contact h2 {
+  font-size: 18px;
+  color: #828282;
+  font-weight: 500;
+  line-height: 1px;
+  margin-bottom: 2em;
+}
+
+.profile .right-col .contact img {
+  width: 20px;
+  height: auto;
+}
+
+.profile .right-col .contact h3 {
+  line-height: 1px;
+}
+
+.skills-section {
+  margin-bottom: 2em;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 0px 5px #828282;
+          box-shadow: 0 0px 5px #828282;
+}
+
+.skills-section h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+.skills-section .progress {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-row-gap: 1em;
+}
+
+.blog-section {
+  margin-bottom: 2em;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 0px 5px #828282;
+          box-shadow: 0 0px 5px #828282;
+}
+
+.blog-section .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.blog-section .hero h1 {
+  font-weight: 500;
+  color: #333333;
+}
+
+.blog-section .hero img {
+  width: 60%;
+  height: 60%;
+}
+
+.blog-section p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
+}
+
+.hobbies-section {
+  margin-bottom: 2em;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 0px 5px #828282;
+          box-shadow: 0 0px 5px #828282;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hobbies-section h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hobbies-section p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.hobbies-section .hobbies-list {
+  padding: 0;
+  list-style: none;
+}
+
+.hobbies-section .hobbies-list img {
+  width: 100%;
+  height: 100%;
+}
+
+.experience-section {
+  margin-bottom: 2em;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 0px 5px #828282;
+          box-shadow: 0 0px 5px #828282;
+}
+
+.experience-section h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.experience-section h3 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.experience-section p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.experience-section .experience-list {
+  padding: 0;
+  list-style: none;
+}
+
+.experience-section .experience-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.experience-section .experience-list img {
+  width: 20%;
+  height: 20%;
+  padding: 15px 15px;
+}
+
+.project-section .container {
+  margin-bottom: 2em;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 0px 5px #828282;
+          box-shadow: 0 0px 5px #828282;
+}
+
+.project-section .navbar h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.project-section .navbar button {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #4f4f4f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.5em 0.5em;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.project-section .navbar button:hover {
+  background: #2F80ED;
+  color: white;
+}
+
+.project-section .project-list li {
+  margin-left: -40px;
+  margin-bottom: 2em;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 0px 2px #828282;
+          box-shadow: 0 0px 2px #828282;
+  list-style: none;
+}
+
+.project-section .project-list img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.project-section .project-list span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4f4f4f;
+}
+
+.project-section .project-list h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.project-section .project-list button {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #4f4f4f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.5em;
+  cursor: pointer;
+  width: 45%;
+  height: 30px;
+}
+
+.project-section .project-list button.demo {
+  background: #2F80ED;
+  color: white;
+}
+
+.project-section .pagination a {
+  border-radius: 1px;
+  border: 1px solid #4f4f4f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.4em 0.4em;
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+.project-section .pagination a.extra {
+  border: none;
+  cursor: not-allowed;
+}
+
+.project-section .pagination a:hover {
+  background: #2F80ED;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    background: white;
+    font-family: 'Montserrat';
+    padding: 3em 2em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -webkit-column-gap: 1.5em;
+            column-gap: 1.5em;
+  }
+  img {
+    border-radius: 12px;
+  }
+  .profile {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  .profile .right-col {
+    width: 70%;
+    float: right;
+  }
+  .profile .right-col .contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .profile h1 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  .profile h2 {
+    font-size: 18px;
+    margin: 0.6em 0em;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  .profile h3, .profile p {
+    margin-top: -1.8em;
+    font-size: 14px;
+  }
+  .profile img {
+    width: 20%;
+  }
+  .skills-section {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  .skills-section .container label {
+    font-size: 14px;
+  }
+  .skills-section .container .progress {
+    gap: 1em;
+  }
+  .blog-section {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  .blog-section p {
+    line-height: 2em;
+    padding: 4em 0em;
+  }
+  .hobbies-section .hobbies-list img {
+    border-radius: 12px;
+    width: 100%;
+    height: 150px;
+  }
+  .experience-section {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    margin-top: 20em;
+  }
+  .experience-section .experience-list .exp-one {
+    padding-bottom: 4.2em;
+  }
+  .project-section {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 3;
+    grid-row: 5/8;
+    height: 100%;
+  }
+  .project-section .project-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .project-section .project-list li {
+    margin: 2em 1em;
+  }
+  .project-section .pagination {
+    text-align: end;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 3em 20em;
+  }
+  .blog-section .container {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .blog-section .container p {
+    line-height: 2em;
+    padding: 3em 0em;
+    margin-bottom: -10px;
+  }
+  .experience-section {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    margin-top: 20em;
+  }
+  .experience-section .experience-list .exp-one {
+    padding-bottom: 4.2em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .blog-section {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  .blog-section p {
+    line-height: 2em;
+    padding: 3em 0em;
+  }
+  .experience-section {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    margin-top: 20em;
+  }
+  .experience-section .experience-list .exp-one {
+    padding-bottom: 7.2em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
